@@ -74,3 +74,11 @@ Before running the test cases, ensure you have the following installed:
 Install the required packages using pip:
 1. Intal dependencies `pip install selenium webdriver-manager`.
 2. Install dependencies: `pip install selenium pytest`.
+
+## Run Tests
+Execute the test cases using the following command:
+`pytest -v -s tests`.
+
+## Test Reports
+`pytest -v -s --capture=sys --html=Reports\Tests.html tests`.
+After execution, view the generated HTML report in the reports/ directory.
